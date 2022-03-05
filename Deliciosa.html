@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Deliciosa</title> 
+
+
+    <style>
+    /* Estilo de header */
+    header {
+        background-color: #ffffff;
+        padding: 1px;
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        color: white;
+        
+        
+    }
+    /* Estilo de header */
+    h2 {
+        background-color: #623b48;
+        padding: 1px;
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        color: white;
+        
+    }
+    
+    </style>
+
+    <body>
+        <div class="contenedor">
+      
+    
+            
+            
+          </div>
+        
+        <header>
+            <h2>Pasteleria Deliciosa</h2>
+            <ul>
+                <a href="https://i.imgur.com/jgkmakD.jpg"><img src="https://i.imgur.com/jgkmakD.jpg" width="420" height="230" title="logo pasteleria" /></a><br>
+                
+            </ul>
+            
+            
+        </header>
+
+
+
+
+
+
+
+
+        <div class="contenedor">
+            
+            
+
+            <article>
+                <h2 align="center">Selecciona el sabor de tu pastel</h2>
+                <br>
+                <div id="form1">
+                <input type="checkbox" id="saborpas1" name="saborpas1" onchange="validacion('form1', this)" />
+                <label for="saborpas1">Chocolate...................... $500</label><br><br>
+                <input type="checkbox" id="saborpas2" name="saborpas2" onchange="validacion('form1', this)" />
+                <label for="saborpas2">Vainilla........................... $500</label><br><br>
+                <input type="checkbox" id="saborpas3" name="saborpas3" onchange="validacion('form1', this)" />
+                <label for="saborpas3">Fresa............................. $500</label><br><br>
+                <input type="checkbox" id="saborpas4" name="saborpas4" onchange="validacion('form1', this)" />
+                <label for="saborpas4">Cajeta.............................$500</label><br><br>
+                <p>*Segundo sabor..................$200*</p>
+                </div>
+    
+                
+    
+                <h2 align="center">Adornos para decorar tu pastel</h2>
+                <br>
+                <div id="form2">
+                <input type="checkbox" id="adorno1" name="adorno1" onchange="validacion2('form2', this)" />
+                <label for="adorno1">Chispas de chocolate........ $100</label><br><br>
+                <input type="checkbox" id="adorno2" name="adorno2" onchange="validacion2('form2', this)" />
+                <label for="adorno2">Durazno............................. $100</label><br><br>
+                <input type="checkbox" id="adorno3" name="adorno3" onchange="validacion2('form2', this)" />
+                <label for="adorno3">Barra de chocolate............ $100</label><br><br>
+                <input type="checkbox" id ="adorno4" name="adorno4" onchange="validacion2('form2', this)" />
+                <label for="adorno4">Nuez.................................. $150</label><br><br>
+                <input type="checkbox" id ="adorno5" name="adorno5" onchange="validacion2('form2', this)" />
+                <label for="adorno5">Fresas............................... $150</label><br><br>
+                <p>*Máximo tres*</p>
+                
+                </div>
+    
+                <hr>
+                <h2 align="center">Datos personales</h2><br>
+                <li>
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" id="name" name="user_name">
+                  </li><br>
+                  <li>
+                      <label for="cel">Teléfono:</label><br>
+                      <input type="number" id="num" name="user_cel">
+                  </li><br>
+                  <li>
+                    <label for="mail">Correo electrónico:</label><br>
+                    <input type="email" id="mail" name="user_mail">
+                  </li><br>
+                  <li>
+                    <label for="adrs">Direccion:</label><br>
+                    <textarea id="adrs" name="user_adress" cols="50" rows="1" ></textarea>
+                  </li><br>
+                  <li>
+                     <label for="msg">Agrega comentarios adicionales:</label><br>
+                     <textarea cols="50" rows="3"></textarea>
+                     </li><br>
+                        <div class="contenedor">
+                            </div>
+                            <button class="centrado" onClick="alert('¡Gracias por tu compra!')">Finalizar compra</button>
+                            <div id="imagen"><br>
+                            </div>
+                        </div>
+    
+    
+            </article>
+        </section>
+    
+    <center>
+        <footer>
+            <p>Antonio Dovali Jaime #70, Santa Fe, 5515992879</p>
+            <p>Abierto de Lunes a Domingo de 8:00am a 9:00pm</p>
+            <p>Pasteleria Deliciosa - LaunchX </p>
+        </footer>
+    </center>
+          
+        </div>
+    </body>
+</html>
